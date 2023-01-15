@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: grocery_store
+    schema: raw
+    tables:
+      - name: products
+        identifier: products
+      - name: sales
+        identifier: sales
