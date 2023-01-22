@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fact_sales
+    description: Cleansed payment dimesnion table with unique combinations of credit cards and loyalty cards.
+    columns:
+      - name: transaction_id
+        description: Primary Key for fact table
+        tests:
+          - unique
+          - not_null

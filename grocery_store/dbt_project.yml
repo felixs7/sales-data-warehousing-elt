@@ -37,3 +37,5 @@ models:
     +materialized: view
     src:
       +materialized: table
+    core:
+      +materialized: table
